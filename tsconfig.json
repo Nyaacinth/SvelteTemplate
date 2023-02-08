@@ -7,8 +7,6 @@
         "moduleResolution": "Node",
         "strict": true,
         "useDefineForClassFields": true,
-        "jsx": "preserve",
-        "jsxImportSource": "solid-js",
         "sourceMap": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
