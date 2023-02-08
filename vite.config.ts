@@ -1,4 +1,4 @@
-import { svelte as Svelte } from "@sveltejs/vite-plugin-svelte"
+import { svelte as Svelte, vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 import UnoCSS from "unocss/vite"
 
 import { defineConfig } from "vite"
@@ -13,5 +13,10 @@ export default defineConfig({
     build: {
         target: ["es2021", "chrome105", "safari13"]
     },
-    plugins: [Svelte(), UnoCSS()]
+    plugins: [
+        Svelte({
+            preprocess: vitePreprocess()
+        }),
+        UnoCSS()
+    ]
 })
