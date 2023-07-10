@@ -19,4 +19,5 @@
 -   Generate a new repository using this template
 -   Clone the new repository to your local environment
 -   Open it with VSCode, and install recommended extensions of the project
--   You're ready to go!
+-   Search and replace all of the `svelte-template` with your project name
+-   You're ready to go! Run tasks with command palette, and press <kbd>F5</kbd> (default) to start tauri application.
